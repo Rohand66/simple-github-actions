@@ -9,7 +9,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: main
       - name: ZAP Scan
         uses: zaproxy/action-full-scan@v0.13.0
         with:
