@@ -12,6 +12,7 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0  # optional but good for full history
 
       - name: Run ZAP Scan
